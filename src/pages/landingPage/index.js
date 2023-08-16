@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "../../components/header";
-import Payroll from "../../components/payroll";
+import LandingSection from "../../sections/landing";
 import IndAndBusiness from "../../components/indAndBusiness";
 import Works from "../../components/works";
 import SalaryAndPayment from "../../components/salaryAndPayment";
@@ -10,8 +9,7 @@ import Footer from "../../components/footer";
 function LandingPage() {
   return (
     <>
-      <Header />
-      <Payroll />
+      <LandingSection />
       <IndAndBusiness />
       <Works />
       <SalaryAndPayment />

@@ -2,9 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif; */
+  height: 100vh;
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Alata", sans-serif;
@@ -16,7 +15,6 @@ code {
     monospace;
 }
 .body {
-  /* font-family: "Aeonik", "Sans-Serif"; isn't available on google fonts*/
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -38,6 +36,8 @@ h1 {
 }
 h2 {
   font-size: 64px !important;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 /* header */
 .btn {
@@ -59,12 +59,17 @@ nav li a:hover {
 .landingSection-container {
   background-image: url("https://www.myeazipay.com/img/gradients.fdc2f6b1.png");
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Payroll section */
-.payroll-heading {
+.payroll-container {
+  width: 100%;
+  height: 75vh;
+}
+payroll-wave .payroll-heading {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
@@ -81,10 +86,11 @@ nav li a:hover {
   color: #ea4e4b !important;
 }
 .btn-shadow {
-  box-shadow: 0px 16px 33px 2px rgba(147, 202, 227, 0.75);
-  -webkit-box-shadow: 0px 16px 33px 2px rgba(147, 202, 227, 0.75);
-  -moz-box-shadow: 0px 16px 33px 2px rgba(147, 202, 227, 0.75);
+  box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
+  -moz-box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
 }
+
 /*Cards*/
 .app-card {
   width: 200px;
@@ -92,9 +98,10 @@ nav li a:hover {
   border: 0;
   border-radius: 8px;
   padding: 12px;
-  box-shadow: 0px 16px 33px 2px rgba(174, 182, 186, 0.75);
-  -webkit-box-shadow: 0px 16px 33px 2px rgba(174, 182, 186, 0.75);
-  -moz-box-shadow: 0px 16px 33px 2px rgba(174, 182, 186, 0.75);
+  background: #fff;
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+  -webkit-box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+  -moz-box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
 }
 .app-card:hover {
   cursor: pointer;
@@ -112,4 +119,129 @@ nav li a:hover {
   line-height: 24px;
   font-style: normal;
   white-space: nowrap;
+}
+
+/*Wave 1*/
+.payroll-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.payroll-wave svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 165px;
+}
+.payroll-wave .shape-fill {
+  fill: #ffffff;
+}
+
+/* IndAndBiz-container */
+.indAndBiz-container {
+  background-color: #f0f7eb !important;
+  width: 100%;
+  height: 75vh;
+}
+.ind-and-biz-heading {
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px; /* 100% */
+}
+.ind-and-biz-caption {
+  color: #292a29;
+  text-align: center;
+  font-family: Aeonik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.2px;
+}
+.notify-cards-container {
+  padding: 0;
+}
+.notify-card {
+  color: #ffffff;
+  border: 0;
+  border-radius: 16px;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(217, 235, 205, 0.14) 0%,
+      rgba(217, 235, 205, 0.03) 100%
+    ),
+    #11453b;
+  box-shadow:
+    -11px 0px 19px 0px rgba(23, 23, 23, 0.3),
+    0px 13px 20px 0px rgba(23, 23, 23, 0.2);
+  -webkit-box-shadow:
+    -11px 0px 19px 0px rgba(23, 23, 23, 0.3),
+    0px 13px 20px 0px rgba(23, 23, 23, 0.2);
+  -moz-box-shadow:
+    -11px 0px 19px 0px rgba(23, 23, 23, 0.3),
+    0px 13px 20px 0px rgba(23, 23, 23, 0.2);
+}
+.notify-card h3 {
+  color: #fff;
+  font-family: Aeonik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+}
+.notify-card li {
+  color: #fff;
+  font-family: Aeonik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+.notify-card-1 {
+  margin-right: -10%;
+}
+.notify-card-1:hover {
+  margin-right: -3%;
+}
+.notify-card-2 {
+  margin-right: -10%;
+}
+.notify-card-2:hover {
+  /* margin-left: 1%; */
+  margin-right: -2%;
+  /* z-index: 1000; */
+}
+.notify-card-3 {
+  margin-left: -10%;
+}
+.notify-card-3:hover {
+  margin-left: -5%;
+  z-index: 1000;
+}
+
+/*Wave 2*/
+.indAndBiz-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  border: 2px solid black;
+}
+.indAndBiz-wave svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 165px;
+}
+.indAndBiz-wave .shape-fill {
+  fill: #ffffff;
 }

@@ -39,28 +39,6 @@ h2 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
-.navBtn {
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  color: #11453b !important;
-  background-color: #f2f1f1 !important;
-  padding: 16px 33px;
-  border-radius: 16px;
-  font-size: 32px;
-}
-.navBtn a {
-  color: #11453b !important;
-}
-.navBtn:hover {
-  background-color: #11453b !important;
-}
-.navBtn a:hover {
-  color: #f2f1f1 !important;
-}
 
 /* header */
 .btn {
@@ -92,7 +70,7 @@ nav li a:hover {
   width: 100%;
   height: 75vh;
 }
-payroll-wave .payroll-heading {
+.payroll-heading {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
@@ -294,4 +272,44 @@ payroll-wave .payroll-heading {
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0.2px;
+}
+.navBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  color: #11453b !important;
+  background-color: #f2f1f1 !important;
+  padding: 16px 33px;
+  border-radius: 16px;
+  font-size: 32px;
+}
+.navBtn a {
+  color: #11453b !important;
+}
+.navBtn:hover {
+  background-color: #11453b !important;
+}
+.navBtn a:hover {
+  color: #f2f1f1 !important;
+}
+
+/* Salary payment section */
+.salary-container {
+  /* background-color: #d9d9d9 !important; */
+  background-color: #ffe9e7 !important;
+  width: 100%;
+  height: 68vh;
+}
+.salary-dots {
+  position: absolute;
+  top: 0;
+  left: 6px;
+}
+.salary-heading {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
 }

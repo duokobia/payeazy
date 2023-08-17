@@ -2,7 +2,7 @@ import React from "react";
 
 function Works() {
   return (
-    <section className="container-fluid d-flex align-items-center justify-content-center flex-column border py-5">
+    <section className="container-fluid d-flex align-items-center justify-content-center flex-column py-5">
       <div className="row my-5">
         <h2 className="works-heading fw-bold pb-3">How PayEazy Works</h2>
         <p className="works-caption">Get started in 3 simple steps.</p>

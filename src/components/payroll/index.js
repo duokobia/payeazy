@@ -7,7 +7,7 @@ function Payroll() {
     <section className="payroll-container container d-flex align-items-center justify-content-between flex-row">
       <div className="row">
         <article className="col-6">
-          <h2 className="payroll-heading">
+          <h2 className="payroll-heading fw-bold">
             <span className="d-inline-block">
               <span className="pe-3 text-blackishgreen">Run your</span>
               <span className="text-payeazy-green">payroll</span>

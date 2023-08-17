@@ -4,7 +4,7 @@ function IndAndBusiness() {
   return (
     <section className="indAndBiz-container container-fluid d-flex align-items-center justify-content-center my-5 py-5">
       <div className="row my-5 py-5">
-        <div className="d-flex invisible" style={{ height: "80px" }}>
+        <div className="d-flex invisible" style={{ height: "150px" }}>
           <div className="vr" />
         </div>
         <div className="col-12">

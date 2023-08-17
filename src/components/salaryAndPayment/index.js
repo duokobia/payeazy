@@ -4,7 +4,7 @@ import GoogleCard from "../cards/googlecard";
 
 function SalaryAndPayment() {
   return (
-    <section className="salary-container container-fluid d-flex align-items-center justify-content-center flex-row border py-5">
+    <section className="salary-container container-fluid d-flex align-items-center justify-content-center flex-row py-5">
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAA…g9NsDod8eCP32QOi3B0L/J/0e9wN06zjaAAAAAElFTkSuQmCC"
         alt="salary-dots"
@@ -24,12 +24,6 @@ function SalaryAndPayment() {
             <h5 className="text-blackishgreen pb-2">
               Subscribe to the PayLife today
             </h5>
-            {/* <button type="button" className="btn btn-success">
-              Register
-            </button>{" "}
-            <button type="button" className="btn btn-success">
-              Register
-            </button> */}
             <div className="d-flex align-items-center justify-content-start gap-4 flex-row">
               <GoogleCard />
               <AppleCard />

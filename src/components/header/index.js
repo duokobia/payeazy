@@ -4,14 +4,14 @@ function Header() {
   return (
     <header className="container offset-1 d-flex align-items-baseline justify-content-between flex-row py-4">
       <nav className="col-6 d-flex align-items-baseline justify-content-between flex-row">
-        <h1 className="col-3 fw-bold">
-          <a href="/" className="nav-link text-decoration-none">
+        <h1 className="col-3">
+          <a href="/" className="header-logo text-decoration-none fw-bold">
             Payeazy
           </a>
         </h1>
         <ul className="col-9 d-flex align-items-center justify-content-between flex-row list-unstyled ps-3">
           <li>
-            <a href="/" className="nav-link text-decoration-none">
+            <a href="/" className="text-decoration-none">
               Individual
             </a>
           </li>
@@ -38,7 +38,7 @@ function Header() {
         </button>
         <button
           type="button"
-          className="btn btn-success rounded-pill px-5 py-2">
+          className="btn btn-shadow btn-success rounded-pill px-5 py-2">
           Register
         </button>
       </div>

@@ -3,7 +3,7 @@ import LandingSection from "../../sections/landing";
 import IndAndBusiness from "../../components/indAndBusiness";
 import Works from "../../components/works";
 import SalaryAndPayment from "../../components/salaryAndPayment";
-import GetDemo from "../../components/getDemo";
+import GetDemoSection from "../../sections/getDemo";
 import Footer from "../../components/footer";
 
 function LandingPage() {
@@ -13,7 +13,7 @@ function LandingPage() {
       <IndAndBusiness />
       <Works />
       <SalaryAndPayment />
-      <GetDemo />
+      <GetDemoSection />
       <Footer />
     </>
   );

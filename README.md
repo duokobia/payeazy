@@ -52,10 +52,11 @@ The web application is intuitive and easy to navigate. From the landing page, cl
 
 # Credits
 
-This web application was solely implemented by me as a frontend developer assessment administered by XXXX XXX XXXXX. Product specification was a figma link with design and I sourced the images used from upslash website. Attribution was done in the app's html and css pages these images were used.
+This web application was solely implemented by me as a frontend developer assessment administered by XXXX XXX XXXXX. Product specification was a figma link with design and I sourced the images used from myeazipay and upslash websites. Attribution was done in the app's html and css pages these images were used.
 
 websites:
 
+- https://www.myeazipay.com/
 - https://unsplash.com/
 
 vbloggers:

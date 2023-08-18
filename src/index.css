@@ -1,7 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  margin: 0;
   height: 100vh;
   width: 100vw;
   -webkit-font-smoothing: antialiased;
@@ -234,9 +237,10 @@ nav li a:hover {
 
 /*Wave 2*/
 .indAndBiz-wave {
-  position: absolute;
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+  position: static;
+  /* top: 12px; */
+  /* left: 0; */
   width: 100%;
   overflow: hidden;
   line-height: 0;
@@ -250,7 +254,9 @@ nav li a:hover {
   height: 165px;
 }
 .indAndBiz-wave .shape-fill {
-  fill: #ffffff;
+  fill: #f0f7eb;
+  fill: #f0f7eb;
+  fill: #fff;
 }
 
 /* Works section */

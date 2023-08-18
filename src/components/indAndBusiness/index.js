@@ -78,7 +78,7 @@ function IndAndBusiness() {
             </div>
           </p>
         </div>
-        <div className="indAndBiz-wave">
+        {/* <div className="indAndBiz-wave">
           <svg
             data-name="Layer 2"
             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ function IndAndBusiness() {
               className="shape-fill"
             />
           </svg>
-        </div>
+        </div> */}
       </div>
     </section>
   );

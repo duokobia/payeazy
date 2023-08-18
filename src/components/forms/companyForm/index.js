@@ -1,11 +1,11 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 
 function CompanyForm(props) {
-  // eslint-disable-next-line no-console
-  console.log("companyform", props);
-  function xyz() {
-    props.toggleForm(true);
+  function toggleOn() {
+    props.toggleCompanyForm(false);
+  }
+  function toggleOff() {
+    props.toggleCompanyForm(true);
   }
   return (
     <section>
@@ -21,27 +21,15 @@ function CompanyForm(props) {
             <div className="getDemo-form-duo-btns row d-flex align-items-center justify-content-center">
               <button
                 type="button"
-                onClick={props.toggleForm(true)}
+                onClick={toggleOff}
                 className="getDemo-form-duo-btn col">
-                {/* <Link
-                  to={{}}
-                  // onClick={props.toggleForm}
-                  className="text-warning"
-                  role="button"> */}
                 Individual
-                {/* </Link> */}
               </button>{" "}
               <button
                 type="button"
-                onClick={xyz}
+                onClick={toggleOn}
                 className="getDemo-form-duo-btn col">
-                {/* <Link
-                  to={{}}
-                  // onClick={props.toggleForm}
-                  className="text-warning"
-                  role="button"> */}
                 Company
-                {/* </Link> */}
               </button>
             </div>
             <input

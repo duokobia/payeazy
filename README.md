@@ -3,7 +3,7 @@
 <div align="center">Auto formatted with Prettier and deployed with xxx.🎗</div>
 
 <h3 align="center">
-  <a href="https://">Visit the live app</a> |
+  <a href="https://payeazy-git-staging-duokobia.vercel.app/">Visit the live app</a> |
   <a href="https://github.com/duokobia/payeasy/tree/main">View client</a> |
 </h3>
 
